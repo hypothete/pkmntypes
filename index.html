@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pokemon type chart</title>
+  <style>
+    body {
+      font-size: 10px;
+      font-family: monospace;
+    }
+
+    table {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+
+    td {
+      border: 1px solid black;
+      margin: 0;
+      padding: 2px;
+      cursor: pointer;
+    }
+
+    .selected {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <table id="types"></table>
+  <div id="details">
+    <h2 id="typename">Click on a type to learn more</h2>
+    <ul id="typemons"></ul>
+  </div>
+  <footer>
+    <p>Pokedex information from <a href="https://github.com/fanzeyi/pokemon.json" target="_blank">github.com/fanzeyi/pokemon.json</a>.</p>
+    <p>Variant information was compiled from <a href="https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_with_form_differences" target="_blank" rel="noopener noreferrer">the Bulbapedia article on form differences</a>.</p>
+    <p>Please comment on <a href="http://"></a></p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
