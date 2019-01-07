@@ -1,0 +1,161 @@
+[
+  {
+    "name": {
+      "english": "Alolan Rattata"
+    },
+    "type": [
+      "Dark",
+      "Normal"
+    ]
+  },
+  {
+    "name": {
+      "english": "Alolan Raticate"
+    },
+    "type": [
+      "Dark",
+      "Normal"
+    ]
+  },
+  {
+    "name": {
+      "english": "Alolan Raichu"
+    },
+    "type": [
+      "Electric",
+      "Psychic"
+    ]
+  },
+  {
+    "name": {
+      "english": "Alolan Sandshrew"
+    },
+    "type": [
+      "Ice",
+      "Steel"
+    ]
+  },
+  {
+    "name": {
+      "english": "Alolan Sandslash"
+    },
+    "type": [
+      "Ice",
+      "Steel"
+    ]
+  },
+  {
+    "name": {
+      "english": "Alolan Vulpix"
+    },
+    "type": [
+      "Ice"
+    ]
+  },
+  {
+    "name": {
+      "english": "Alolan Ninetales"
+    },
+    "type": [
+      "Ice",
+      "Fairy"
+    ]
+  },
+  {
+    "name": {
+      "english": "Alolan Diglett"
+    },
+    "type": [
+      "Ground",
+      "Steel"
+    ]
+  },
+  {
+    "name": {
+      "english": "Alolan Dugtrio"
+    },
+    "type": [
+      "Ground",
+      "Steel"
+    ]
+  },
+  {
+    "name": {
+      "english": "Alolan Meowth"
+    },
+    "type": [
+      "Dark"
+    ]
+  },
+  {
+    "name": {
+      "english": "Alolan Persian"
+    },
+    "type": [
+      "Dark"
+    ]
+  },
+  {
+    "name": {
+      "english": "Alolan Geodude"
+    },
+    "type": [
+      "Rock",
+      "Electric"
+    ]
+  },
+  {
+    "name": {
+      "english": "Alolan Graveler"
+    },
+    "type": [
+      "Rock",
+      "Electric"
+    ]
+  },
+  {
+    "name": {
+      "english": "Alolan Golem"
+    },
+    "type": [
+      "Rock",
+      "Electric"
+    ]
+  },
+  {
+    "name": {
+      "english": "Alolan Grimer"
+    },
+    "type": [
+      "Poison",
+      "Dark"
+    ]
+  },
+  {
+    "name": {
+      "english": "Alolan Muk"
+    },
+    "type": [
+      "Poison",
+      "Dark"
+    ]
+  },
+  {
+    "name": {
+      "english": "Alolan Exeggcutor"
+    },
+    "type": [
+      "Grass",
+      "Dragon"
+    ]
+  },
+  {
+    "name": {
+      "english": "Alolan Marowak"
+    },
+    "type": [
+      "Fire",
+      "Ghost"
+    ]
+  }
+]

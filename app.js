@@ -4,13 +4,14 @@ const typemons = document.getElementById('typemons');
 
 const combos = [];
 
-var typeList, monList, lastSelectedCell;
+var typeList, monList, variantList, lastSelectedCell;
 
 run();
 
 async function loadData() {
   typeList = await fetch('./types.json') .then(response => response.json());
   monList = await fetch('./pokedex.json').then(response => response.json());
+  variantList = await fetch('./variants.json').then(response => response.json());
 }
 
 class Combo {
@@ -38,8 +39,13 @@ class Combo {
 async function run() {
   await loadData();
 
+  const monsAndVariants = [
+    ...monList,
+    ...variantList
+  ];
+
   // create found combos objects
-  monList.forEach(mon => {
+  monsAndVariants.forEach(mon => {
     // check if a combo exists
     let foundCombo = combos.find(someCombo => {
       return someCombo.matches(mon.type);
